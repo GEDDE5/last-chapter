@@ -1,0 +1,19 @@
+{
+  "name": "last-chapter",
+  "version": "1.0.0",
+  "description": "Last Chapter: Book Club App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GEDDE5/last-chapter.git"
+  },
+  "author": "Donald Geddes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GEDDE5/last-chapter/issues"
+  },
+  "homepage": "https://github.com/GEDDE5/last-chapter#readme"
+}
