@@ -1,6 +1,6 @@
 {
   "name": "last-chapter",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "LastChapter: Book Club App",
   "main": "index.js",
   "scripts": {
