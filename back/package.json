@@ -1,10 +1,11 @@
 {
   "name": "last-chapter",
   "version": "1.0.0",
-  "description": "Last Chapter: Book Club App",
+  "description": "LastChapter: Book Club App",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,22 @@
   "bugs": {
     "url": "https://github.com/GEDDE5/last-chapter/issues"
   },
-  "homepage": "https://github.com/GEDDE5/last-chapter#readme"
+  "homepage": "https://github.com/GEDDE5/last-chapter#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "strpad": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.2",
+    "prettier": "2.0.4"
+  }
 }
