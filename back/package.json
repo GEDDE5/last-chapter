@@ -1,6 +1,6 @@
 {
   "name": "last-chapter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "LastChapter: Book Club App",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/GEDDE5/last-chapter.git"
   },
-  "author": "Donald Geddes",
+  "author": {
+    "name": "Donald Geddes",
+    "email": "hi@donaldgeddes.ca",
+    "url": "https://donaldgeddes.ca"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/GEDDE5/last-chapter/issues"
