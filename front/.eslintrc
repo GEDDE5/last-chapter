@@ -1,0 +1,29 @@
+{
+  "env": {
+      "browser": true,
+      "node": true
+  },
+  "extends": [
+    "airbnb",
+    "plugin:react/recommended"
+  ],
+  "parser": "babel-eslint",
+  "plugins": ["jsx-a11y"],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  },
+  "rules": {
+    "arrow-parens": "off",
+    "comma-dangle": "off",
+    "jsx-quotes": "off",
+    "no-console": "off",
+    "no-unused-vars": "warn",
+    "operator-linebreak": "off",
+    "react/jsx-filename-extension": "off",
+    "semi": "off"
+  }
+}
