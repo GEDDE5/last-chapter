@@ -4,7 +4,7 @@
   "description": "LastChapter: Book Club App",
   "main": "index.js",
   "scripts": {
-    "build": "./scripts/build",
+    "build": "scripts/build",
     "start": "node ./index.js",
     "dev": "nodemon"
   },
