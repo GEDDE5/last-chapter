@@ -1,0 +1,6 @@
+#!/bin/bash
+
+set -x
+
+babel . -d lib --ignore node_modules
+rsync -avz --exclude '*.js' --exclude node_modules --exclude nodemon.json --exclude lib . lib
