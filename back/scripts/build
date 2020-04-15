@@ -3,4 +3,6 @@
 set -x
 
 babel . -d lib --ignore node_modules
+
+# Beware: rsync isn't native on Windows machines
 rsync -avz --exclude '*.js' --exclude node_modules --exclude nodemon.json --exclude lib . lib
