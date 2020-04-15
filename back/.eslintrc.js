@@ -17,4 +17,11 @@ module.exports = {
     'no-unused-vars': 'warn',
     semi: 'off',
   },
+  settings: {
+    'import/resolver': {
+      node: {
+        paths: ['.'],
+      },
+    },
+  },
 }

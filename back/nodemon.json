@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ignore": ["node_modules", ".git"],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "watch": ["**/*"],
+  "exec": "babel-node index.js"
+}
